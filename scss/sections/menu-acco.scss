@@ -1,0 +1,106 @@
+.menu {
+  background-image: url('../img/bg/bg-menu.jpg');
+  background-color: #b5babd;
+}
+
+.menu__title {
+    position: absolute;
+    left: rem(94px);
+    top: rem(112px);
+
+}
+
+.menu-acco {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-acco__item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-acco__trigger {
+
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: rem(80px);
+}
+
+.menu-acco__trigger-meat {
+      background-image: url("../img/content/bg-meat.jpg");
+}
+.menu-acco__trigger-veg {
+      background-image: url("../img/content/bg-veg.jpg");
+}
+.menu-acco__trigger-diet {
+      background-image: url("../img/content/bg-diet.jpg");
+}
+
+
+.menu-acco__title {
+    color: #ffffff;
+    font-family: Gagalin, Helvetica, sans-serif;
+    font-size: rem(40px);
+    font-weight: 400;
+    line-height: rem(80px);
+    transform-origin: left top 0;
+    transform: rotate(-90deg);
+    transition: all .1s ease;
+    top: 90%;
+    position: absolute;
+    width: rem(500px);
+
+}
+
+.menu-acco__content {
+    width: 0;
+    overflow: hidden;
+    display: flex;
+    background-color: rgba(47, 50, 52, 0.91);
+    transition: width 1s;
+    justify-content: flex-end;
+  }
+
+.menu-acco__text {
+    color: #ffffff;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    //font-size: rem(14px);
+    font-weight: 300;
+    line-height: rem(24px);
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 12%;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+.menu-acco__item--active {
+
+.menu-acco__trigger {
+   width: rem(80px);
+
+}
+
+  .menu-acco__title {
+
+    color: $yellow;
+  }
+  .menu-acco__content {
+
+    display: flex;
+  }
+
+  .menu-acco__content {
+    width: rem(540px);
+
+  }
+}
+

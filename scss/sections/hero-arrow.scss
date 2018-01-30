@@ -1,0 +1,14 @@
+.arrow{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  height: 54px;
+}
+
+.arrow__link{
+  width: 32px;
+  height: 16px;
+  background: url(../img/icons/arrow-scroll.svg) center center no-repeat;
+}

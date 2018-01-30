@@ -1,0 +1,16 @@
+.arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  height: 54px; }
+
+.arrow__link {
+  width: 32px;
+  height: 16px;
+  background: url(../icons/arrow-scroll.svg) center center no-repeat; }

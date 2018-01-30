@@ -1,0 +1,31 @@
+.icon-best {
+  min-width: 100%;
+  max-height: 100%;
+  //display: flex;
+  //align-items: center;
+}
+.icon-best__meat{
+    fill: $red;
+  }
+.icon-best__hand {
+    fill: $yellow;
+  }
+
+.icon-best__natural {
+    fill: #8ac03e;
+}
+
+.footer-content__soc--icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: rem(20px);
+  fill: #5b5b5b;
+  width: rem(20px);
+  height: rem(20px);
+  &:hover {
+    fill: #ffff;
+  }
+  &:first-child{
+    margin-left: 0;
+  }
+}

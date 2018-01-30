@@ -1,0 +1,67 @@
+.best {
+  background-image: url('../img/bg/best-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.section__title--best {
+  color: #2f3234;
+  padding: 0;
+  margin-bottom: rem(25px);
+}
+
+.container {
+    justify-content: center;
+  }
+.best__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+.best__list {
+    display: flex;
+    margin-left: rem(-20px);
+  }
+.best__item {
+    margin-left: rem(20px);
+    margin-bottom: rem(20px);
+    width: 60%;
+  }
+
+
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ }
+.advantage__icon {
+    width: rem(100px);
+    height: rem(100px);
+    margin-bottom: rem(30px);
+    display: flex;
+  }
+
+.advantage__info {
+    text-align: center;
+
+  }
+.advantage__title {
+    font-family: Lifehack, Helvetica, sans-serif;
+    color: $dark;
+    font-weight: 300;
+    font-size: rem(24px);
+    line-height: rem(24px);
+    letter-spacing: rem(-0.6px);
+    margin-bottom: 7%;
+  }
+  

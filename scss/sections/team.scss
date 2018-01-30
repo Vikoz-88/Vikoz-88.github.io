@@ -1,0 +1,115 @@
+.team {
+  background-image: url(../img/bg/team.jpg);
+  background-color: #c0afaa;
+  position: relative;
+}
+
+.team__block {
+    width: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(47, 50, 52, 0.91);
+    padding-left: rem(98px);
+    padding-right: rem(10px);
+    padding-top: rem(113px);
+  }
+
+
+
+.team-acco {
+  margin-top: rem(55px);
+}
+
+.team-acco__item {
+    margin-bottom: rem(35px);
+    position: relative;
+  }
+
+.team-acco__trigger {
+    color: #ffffff;
+    font-family: Gagalin, Helvetica, sans-serif;
+    font-size: rem(14px);
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: rem(15px);
+    display: flex;
+    transition: all .1s ease;
+    position: relative;
+
+  }
+
+.team-acco__content-wrap {
+    height: 0;
+    overflow: hidden;
+  }
+
+.team-acco__content {
+    display: flex;
+    width: rem(330px);
+
+  }
+
+.team-acco__photo {
+    width: rem(100px);
+    height: rem(100px);
+
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+.team-acco__photo-img {
+    min-width: 100%;
+    max-height: 100%;
+  }
+
+.team-acco__text {
+    color: #ffffff;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: rem(14px);
+    margin-left: 21px;
+    width: 220px;
+  }
+
+.team-acco__title {
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+.team-acco__desc {
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+
+.team-acco__trigger:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top: 8px solid $yellow;
+  margin-right: 8px;
+  transform: translateY(40%) rotate(0deg);
+  transition: .5s;
+}
+
+.team-acco__item--active {
+  .team-acco__trigger {
+    color: $yellow;
+
+    &::before {
+      transform: translateY(-20%) rotate(180deg);
+    }
+  }
+
+
+.team-acco__content {
+    display: flex;
+  }
+
+.team-acco__content-wrap {
+    height: auto;
+  }
+}
